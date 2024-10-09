@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Mascotas</title>
+    <link rel="stylesheet" href="../CSS/estilos.css"> <!-- Puedes agregar tu CSS aquí -->
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">Tienda de Mascotas</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Página de Inicio -->
+    <section id="inicio">
+        <h1>Bienvenido a nuestra Tienda de Mascotas</h1>
+        <p>Todo para tu mejor amigo</p>
+        <div class="banner"><img src="banner.jpg" alt="Banner Tienda de Mascotas"></div>
+    </section>
+
+    <!-- Productos -->
+    <section id="productos">
+        <h2>Productos Destacados</h2>
+        <div class="producto">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h3>Comida para Perros</h3>
+            <p>$20.00</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="producto2.jpg" alt="Producto 2">
+            <h3>Juguete para Gatos</h3>
+            <p>$15.00</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <!-- Agrega más productos según sea necesario -->
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Peluquería para Mascotas, Adiestramiento, Cuidados Veterinarios.</p>
+        <p>Precios a partir de $30.00</p>
+        <button>Reservar Cita</button>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Últimos Artículos</h2>
+        <article>
+            <h3>Cómo Cuidar a tu Mascota</h3>
+            <p>Consejos para el cuidado adecuado de tu mascota...</p>
+            <a href="#">Leer más</a>
+        </article>
+        <!-- Agrega más artículos según sea necesario -->
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Teléfono: 123-456-7890</p>
+        <p>Dirección: Calle de las Mascotas, 123</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Tienda de Mascotas. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
